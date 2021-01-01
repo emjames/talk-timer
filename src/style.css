@@ -1,0 +1,92 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#name {
+  width: 50%;
+  border: 3px solid black;
+  text-align: center;
+}
+
+/*
+ * Buttons from: https://cssdeck.com/labs/beautiful-flat-buttons
+ */
+/* #Asbestos Flat Button
+==================================================*/
+.asbestos-flat-button {
+  position: relative;
+  vertical-align: top;
+  width: 50%;
+  height: 60px;
+  padding: 0;
+  font-size: 22px;
+  color:white;
+  text-align: center;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.25);
+  background: #7f8c8d;
+  border: 0;
+  border-bottom: 2px solid #6d7b7c;
+  cursor: pointer;
+  -webkit-box-shadow: inset 0 -2px #6d7b7c;
+  box-shadow: inset 0 -2px #6d7b7c;
+}
+.asbestos-flat-button:active {
+  top: 1px;
+  outline: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+/* #Graphite Flat Button
+==================================================*/
+.graphite-flat-button {
+  position: relative;
+  vertical-align: top;
+  width: 50%;
+  height: 60px;
+  padding: 0;
+  font-size: 22px;
+  color:white;
+  text-align: center;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.25);
+  background: #454545;
+  border: 0;
+  border-bottom: 2px solid #2f2e2e;
+  cursor: pointer;
+  -webkit-box-shadow: inset 0 -2px #2f2e2e;
+  box-shadow: inset 0 -2px #2f2e2e;
+}
+.graphite-flat-button:active {
+  top: 1px;
+  outline: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+.flat-button {
+  position: relative;
+  vertical-align: top;
+  width: 50%;
+  height: 100px;
+  padding: 0;
+  font-size: 22px;
+  color:white;
+  text-align: center;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.25);
+  background: #859596;
+  border: 0;
+  border-bottom: 2px solid #95a5a6;
+  cursor: pointer;
+  -webkit-box-shadow: inset 0 -2px #95a5a6;
+  box-shadow: inset 0 -2px #95a5a6;
+}
+
+.flat-button:active {
+  top: 1px;
+  outline: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
